@@ -1,0 +1,12 @@
+---
+controller_templates:
+  - name: jt-demo_bravo-system_check
+    description: "System check job template — day-2 self-service addition by tenant Bravo"
+    organization: demo_bravo
+    project: prj-demo_bravo-hello_world
+    playbook: hello_world.yml
+    inventory: inv-demo_bravo-hello_world
+    credential: crd-demo_bravo-machine_demo
+    job_type: run
+    ask_variables_on_launch: false
+    verbosity: 0

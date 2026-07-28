@@ -1,0 +1,9 @@
+---
+controller_projects:
+  - name: prj-demo_bravo-hello_world
+    description: "Hello World sample project for tenant Bravo"
+    organization: demo_bravo
+    scm_type: git
+    scm_url: "https://github.com/ansible/ansible-tower-samples.git"
+    scm_branch: master
+    scm_update_on_launch: true

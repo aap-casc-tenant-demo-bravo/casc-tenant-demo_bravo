@@ -1,0 +1,5 @@
+---
+controller_inventories:
+  - name: inv-demo_bravo-hello_world
+    description: "Hello World inventory for tenant Bravo"
+    organization: demo_bravo
