@@ -1,0 +1,14 @@
+---
+# Example projects configuration — rename to .yml to activate.
+# This file belongs in base/projects/ and applies to ALL environments.
+# For environment-specific overrides, place a .yml file in <env>/projects/.
+controller_projects:
+  - name: prj-demo_bravo-example
+    description: "Example project — replace with your automation use-case"
+    scm_type: git
+    scm_url: "https://github.com/playbooks-demo_bravo-example.git"
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_update_on_launch: false
+    organization: "demo_bravo"
