@@ -1,0 +1,11 @@
+# Engine-owned lifecycle marker. Do not edit tenant identity fields in place;
+# use the documented tenant identity/repository migration procedure instead.
+aap_organization: demo_bravo
+onboarding_mode: greenfield
+repo_mode: create
+repo_visibility: private
+repository: casc-tenant-demo_bravo
+scaffold_version: 4
+team_name: Bravo Engineering
+tenant_id: demo_bravo
+tenant_scm_org: aap-casc-tenant-demo-bravo
