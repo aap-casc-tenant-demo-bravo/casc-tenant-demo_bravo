@@ -1,0 +1,15 @@
+---
+# Example job templates configuration — rename to .yml to activate.
+# This file belongs in base/templates/ and applies to ALL environments.
+# For environment-specific overrides, place a .yml file in <env>/templates/.
+controller_templates:
+  - name: jt-demo_bravo-example
+    description: "Example job template — replace with your automation use-case"
+    organization: "demo_bravo"
+    project: prj-demo_bravo-example
+    playbook: site.yml
+    inventory: inv-demo_bravo-src-dev-example
+    credentials:
+      - crd-demo_bravo-mch-example
+    ask_variables_on_launch: false
+    verbosity: 0
