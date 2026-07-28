@@ -1,0 +1,11 @@
+---
+# Example schedules configuration — rename to .yml to activate.
+# This file belongs in base/schedules/ and applies to ALL environments.
+# For environment-specific overrides, place a .yml file in <env>/schedules/.
+controller_schedules:
+  - name: sch-demo_bravo-example
+    description: "Example schedule — replace with your schedule"
+    unified_job_template: jt-demo_bravo-example
+    organization: "demo_bravo"
+    rrule: "DTSTART;TZID=UTC:20260101T060000 RRULE:FREQ=WEEKLY;BYDAY=MO"
+    enabled: false
