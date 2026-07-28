@@ -1,0 +1,15 @@
+---
+# Example workflows configuration — rename to .yml to activate.
+# This file belongs in base/workflows/ and applies to ALL environments.
+# For environment-specific overrides, place a .yml file in <env>/workflows/.
+controller_workflows:
+  - name: wfjt-demo_bravo-example
+    description: "Example workflow — replace with your orchestration use-case"
+    organization: "demo_bravo"
+    simplified_workflow_nodes:
+      - identifier: node-start
+        unified_job_template: jt-demo_bravo-example
+        success_nodes: []
+        failure_nodes: []
+        always_nodes: []
+    ask_variables_on_launch: false
